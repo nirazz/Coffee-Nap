@@ -1,0 +1,208 @@
+html,
+body {
+    height:100%;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+/* All Buttons */
+.btn {
+    transition: all 0.3s ease-in-out;
+}
+/* All Buttons */
+
+
+/* Hamburger and company name  */
+.navbar {
+  background-color: rgb(37, 22, 2);
+  border-bottom: 2px solid ;
+  font-family: 'Alegreya Sans', sans-serif;  
+  color: white;
+  
+}
+
+.navbar .nav .nav-item .nav-link {
+  color: #d1d1d1;
+}
+
+.navbar .nav .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+    color: white;
+}
+/* Hamburger and company name  */
+
+/*HEADER*/
+
+/* Background main img */
+#header {
+    background:url('./cof1.jpg') center center no-repeat;
+    background-size:cover;
+    height:100%;
+    color:white;
+    display:center;
+    text-align: center;
+    vertical-align: middle;
+    left: 50%;
+    
+  /* Background main img */ 
+}
+/* Background 2 headers */
+#header img {
+    padding:0 0 20px;
+    width:100%;
+}
+
+#header .header-right {
+    background-color:rgba(0,0,0,0.5);
+    padding:30px;
+    border-radius:80px;
+/* Background 2 headers */
+}
+/* <!-- Arrow --> */
+#header .fa {
+    margin:45% 0;
+
+}
+
+#header a .fa {
+    color:white;
+}
+
+#header a .fa:hover {
+    color:wheat
+}
+/* <!-- Arrow --> */
+
+/* <!-- Follow Us --> */
+
+#social {
+    padding:4.25rem 0;
+}
+
+#social .fa {
+    font-size:1.5em;
+    color:#be2835;
+    border:2px solid #be2835;
+    width:60px;
+    height:60px;
+    border-radius:30%;
+    text-align:center;
+    padding:30% 0;
+    margin-top:10px;
+    transition:all 0.4s ease-in-out;
+}
+
+#social .fa:hover {
+    color:#fff;
+    background:#be2835;
+}
+
+/* <!-- Follow Us --> */
+
+/* <!-- About Us --> */
+
+ #who {
+    padding:5rem 0;
+    background-color:#f6f6f6;
+}
+
+#who .btn-who {
+    background-color:#be2835;
+    color:#fff;
+    width:50%;
+}
+
+#who .btn-who:hover {
+    background-color:transparent;
+    border:1px solid #be2835;
+    color:#be2835; 
+ }
+
+ /* <!-- About Us --> */
+
+ /* <!-- Gallery --> */
+
+ #work {
+    padding:5rem 0;
+ 
+}
+
+#work .work-img {
+    position:relative;
+ 
+}
+
+#work .work-img .img-overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    width:100%;
+    height:100%;
+    background-image: url('../img/eye.png');
+    background-position:center center;
+    background-repeat:no-repeat;
+    opacity:0;
+    z-index:0;
+    transition:all 0.3s ease-in-out;
+}
+
+
+#work .work-img .img-overlay:hover {
+    opacity:1;
+    z-index:1;
+} 
+/* <!-- Gallery --> */
+
+
+/* <!-- CONTACT US--> */
+
+#contact {
+    padding:2rem 2rem 2rem;
+      
+}
+
+/* <!-- CONTACT US--> */
+
+/* <!-- FOOTER --> */
+
+#footer {
+    padding:2rem 0;
+    background-color:rgb(37, 22, 2);
+    color:white;  
+}
+
+#footer a {
+    color:white;
+}
+
+#footer .fa {
+    padding:0 5px;
+}
+
+/* <!-- FOOTER --> */
+
+@media(max-width:768px) {
+    #header {
+        text-align:center;
+    }
+    #header img {
+        margin:20% auto 0;
+    }
+    #social {
+        text-align:center;
+    }
+    #social hr, #who hr {
+        margin:8% auto;
+    }
+    #who {
+        text-align:center;
+    }
+    #who img {
+        margin-top:15%;
+    }
+    #footer {
+        text-align:center;
+    }
+}
